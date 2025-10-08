@@ -14,7 +14,7 @@ export default function Navbar() {
           <ul className="flex gap-6 text-sm font-medium text-black dark:text-white">
             <li>
               <Link
-                to="/AllJobs"
+                to="/Job-tracker/AllJobs"
                 className="hover:text-blue-200 dark:hover:text-blue-400 transition duration-200"
               >
                 Add Job
@@ -22,7 +22,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="/Dashboard"
+                to="/Job-tracker/Dashboard"
                 className="hover:text-blue-200 dark:hover:text-blue-400 transition duration-200"
               >
                 Dashboard

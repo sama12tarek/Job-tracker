@@ -43,7 +43,7 @@ export default function AllJobs() {
     addJob({ ...data, id: Date.now() });
     toast.success("Job added successfully!");
     setTimeout(() => {
-      navigate("/Dashboard");
+      navigate("/Job-tracker/Dashboard");
     }, 1000);
     reset();
   };
@@ -167,4 +167,3 @@ export default function AllJobs() {
     </div>
   );
 }
-

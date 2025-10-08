@@ -37,7 +37,7 @@ export default function EditJob() {
 
   const onSubmit = (data) => {
     updateJob({ ...data, id: job.id });
-    navigate(`/job/${job.id}`);
+    navigate(`/Job-tracker/job/${job.id}`);
   };
 
   if (!job)
@@ -55,7 +55,6 @@ export default function EditJob() {
         </h1>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
-        
           <div>
             <label className="block text-gray-900 font-semibold mb-3 text-lg">
               Company
@@ -193,7 +192,7 @@ export default function EditJob() {
             </button>
             <button
               type="button"
-              onClick={() => navigate(`/job/${job.id}`)}
+              onClick={() => navigate(`/Job-tracker/job/${job.id}`)}
               className="bg-gray-400 hover:bg-gray-500 text-white font-semibold py-4 px-8 rounded-2xl shadow-lg transition duration-300"
             >
               Cancel

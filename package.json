@@ -1,7 +1,7 @@
 {
   "name": "job-tracker-app",
   "private": true,
-  "homepage": "https://sama12tarek.github.io/Job-tracker",
+  "homepage": "https://mohanedkjr.github.io/Job-tracker/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -15,6 +15,7 @@
     "@hookform/resolvers": "^5.2.2",
     "flowbite": "^3.1.2",
     "json-server": "^1.0.0-beta.3",
+    "prettier": "^3.6.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-hook-form": "^7.64.0",

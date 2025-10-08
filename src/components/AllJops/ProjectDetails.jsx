@@ -14,17 +14,16 @@ export default function ProjectDetails() {
   // 🗑️ دالة حذف الوظيفة
   const handleDelete = () => {
     const confirmDelete = window.confirm(
-      "Are you sure you want to delete this job?"
+      "Are you sure you want to delete this job?",
     );
     if (confirmDelete) {
       deleteJob(job.id);
-      navigate("/"); // رجوع للصفحة الرئيسية بعد الحذف
+      navigate("/Job-tracker/"); // رجوع للصفحة الرئيسية بعد الحذف
     }
   };
 
-
   const handleEdit = () => {
-    navigate(`/edit/${job.id}`); 
+    navigate(`/Job-tracker/edit/${job.id}`);
   };
 
   return (
