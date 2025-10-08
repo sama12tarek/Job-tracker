@@ -1,7 +1,7 @@
 {
   "name": "job-tracker-app",
   "private": true,
-  "homepage": "https://sama12tarek.github.io/job-tracker",
+  "homepage": "https://sama12tarek.github.io/Job-tracker",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
